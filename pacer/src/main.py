@@ -1,15 +1,10 @@
+import pandas as pd
 import numpy as np
 
 def floatToPace(pace_float: float):
     return f"{int(pace_float)}'{int((pace_float % 1) * 60)}\""
 
-treinos = np.array([
-    [12, 1.71],
-    [14, 2],
-    [11, 1.55],
-    [9, 1.3],
-    [9, 1.32]
-])
+treinos = pd.read_csv("../treinos.csv").to_numpy()
 
 print("=================================")
 print("=========     PACER     =========")
