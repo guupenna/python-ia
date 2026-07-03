@@ -64,3 +64,6 @@ if __name__ == "__main__":
 
     print("====== SIMMULATED ANNEALING ======\n")
     print(f"Melhor f(x) = {f(solucao_refinada):.4f}")
+
+
+    

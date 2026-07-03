@@ -1,5 +1,4 @@
 import numpy as np
-import math
 
 LOWER_BOUND = -32
 UPPER_BOUND = 32
@@ -49,3 +48,4 @@ def hill_climbing(x):
         sol_atual = melhor_vizinho
 
     return sol_atual
+
